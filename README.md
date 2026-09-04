@@ -4,7 +4,7 @@
 [![Tracking: MLflow](https://img.shields.io/badge/Tracking-MLflow-0194E2?logo=mlflow&logoColor=white)](https://mlflow.org/)
 [![Data: DVC](https://img.shields.io/badge/Data-DVC-13ADC7)](https://dvc.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: Building in public](https://img.shields.io/badge/Status-Building%20Oct%E2%80%93Dec%202026-orange)](#build-plan)
+[![Status: Building in public](https://img.shields.io/badge/Status-Building%20Sep%E2%80%93Nov%202026-orange)](#build-plan)
 
 **Benchmarks and fine-tuning studies on the NVIDIA DGX Spark. Not that Spark.**
 
@@ -12,7 +12,7 @@ SparkBench is the umbrella repo for everything I measure on the DGX Spark (GB10,
 
 This is the third leg of a deliberate portfolio arc: [DocQuery](https://github.com/vondraysanford/docquery) proved RAG works in the .NET ecosystem, AgentReview proved multi-agent orchestration does too, and SparkBench asks whether the most expensive component in that stack — the frontier LLM call — can be replaced with a model I trained myself, on hardware I own.
 
-> **🚧 Status: Phase 0 — scope lock.** Building in public, ~7 working weekends, October → mid-December 2026. Nothing below is claimed as done unless its box is checked, and every number in the results table must trace to an MLflow run ID.
+> **🚧 Status: Phase 0 — scope lock.** Building in public, ~7 working weekends, September → mid-November 2026. Nothing below is claimed as done unless its box is checked, and every number in the results table must trace to an MLflow run ID.
 
 **The checkboxes in this README are an honesty contract. No box gets checked until its phase's exit test passes — and every exit test is binary. It passed or it didn't.**
 
@@ -113,7 +113,7 @@ The local model drops in behind the same provider interface the agent already ca
 
 ## Build Plan
 
-~7 working weekends, October → mid-December 2026. Hard gate between phases: Phase N+1 does not start until Phase N's binary exit test passes. Evidence (screenshots, numbers, GIFs) is captured the session it first appears, into `evidence/phase-N/`; session notes accumulate in [`BUILDLOG.md`](BUILDLOG.md) and become the blog posts.
+~7 working weekends, September → mid-November 2026. Hard gate between phases: Phase N+1 does not start until Phase N's binary exit test passes. Evidence (screenshots, numbers, GIFs) is captured the session it first appears, into `evidence/phase-N/`; session notes accumulate in [`BUILDLOG.md`](BUILDLOG.md) and become the blog posts.
 
 ### Phase 0 — Scope Lock & the Experiment Card
 

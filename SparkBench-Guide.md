@@ -4,7 +4,7 @@
 
 **The name & shape:** `SparkBench` is the umbrella repo for everything measured on the DGX Spark, in two chapters: `bench/` — the inference benchmarking suite your site already promises (throughput, latency, memory across models and quantization levels) — and `experiments/01-finetune-vs-frontier/` — this guide's study, the flagship. One repo, one portfolio card, and it retires the site's "coming soon" placeholder the day it goes public. Because the wider world associates "SparkBench" with Apache Spark benchmarking tooling, the disambiguation tagline travels with the name everywhere it appears: **"SparkBench — benchmarks and fine-tuning studies on the NVIDIA DGX Spark. Not that Spark."**
 
-**Timebox:** ~7 working weekends, October → mid-December 2026. Done before OMSCS starts.
+**Timebox:** ~7 working weekends, September → mid-November 2026. Done before OMSCS starts.
 
 ---
 
@@ -234,10 +234,10 @@ The gate enforces discipline, not a result — both branches ship.
 
 ```
 experiments/01-finetune-vs-frontier/evidence/
-  phase-0/  2026-10-03-experiment-card.png
-  phase-1/  2026-10-10-first-schema-valid-generation.png
-            2026-10-10-smoke-loss-curve.png
-  phase-6/  2026-11-15-side-by-side-review.gif
+  phase-0/  2026-09-05-experiment-card.png
+  phase-1/  2026-09-12-first-schema-valid-generation.png
+            2026-09-12-smoke-loss-curve.png
+  phase-6/  2026-10-18-side-by-side-review.gif
 ```
 
 - Name: `YYYY-MM-DD-what-it-shows` — no `img_4021.png`, no `final_v2_REAL`.
@@ -251,15 +251,15 @@ experiments/01-finetune-vs-frontier/evidence/
 
 | Weekend | Dates (2026) | Phase |
 |---|---|---|
-| 1 | Oct 3–4 | Phase 0 + start Phase 1 |
-| 2 | Oct 10–11 | Phase 1 exit |
-| 3 | Oct 17–18 | Phase 2 |
-| 4 | Oct 24–25 | Phase 3 |
-| 5 | Oct 31–Nov 1 | Phase 4 |
-| 6 | Nov 7–8 | Phase 5 (overnight runs into the week) |
-| 7 | Nov 14–15 | Phase 5 spillover + Phase 6 |
-| 8 | Nov 21–22 | Phase 7 |
-| — | Nov 28–Dec 13 | Buffer (holidays, slippage, stretch demo) |
+| 1 | Sep 5–6 | Phase 0 + start Phase 1 |
+| 2 | Sep 12–13 | Phase 1 exit |
+| 3 | Sep 19–20 | Phase 2 |
+| 4 | Sep 26–27 | Phase 3 |
+| 5 | Oct 3–4 | Phase 4 |
+| 6 | Oct 10–11 | Phase 5 (overnight runs into the week) |
+| 7 | Oct 17–18 | Phase 5 spillover + Phase 6 |
+| 8 | Oct 24–25 | Phase 7 |
+| — | Oct 31–Nov 15 | Buffer (slippage, stretch demo) |
 
 Two weekends of built-in slack before OMSCS. If a phase slips, the buffer absorbs it — the order never changes, and no gate gets waived to "catch up."
 
