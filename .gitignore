@@ -2,3 +2,4 @@
 
 # raw screen recordings, asciinema casts, and social MP4s live next to their GIFs but stay out of git
 **/evidence/**/raw/
+*.env
