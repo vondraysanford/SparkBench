@@ -286,10 +286,13 @@ Everything hardware- and serving-related in this repo follows NVIDIA's published
 - **[DriftWatch](https://github.com/vondraysanford/drift-watch)** — origin of the MLflow run-tracking discipline every number here inherits
 - Build posts land at [vondraysanford.com](https://vondraysanford.com) as each phase ships
 
-## License
+## Contributors
 
-[MIT](LICENSE)
+- **[Vondray Sanford](https://github.com/vondraysanford)** — spec, hardware,
+  review, evidence captures, and benchmarks
 
----
-
-**Built by [Vondray Sanford](https://www.linkedin.com/in/vondray-sanford/)** — .NET engineer building at the intersection of enterprise systems and modern AI.
+Contributions are welcome. Fork the repo, make your change on a branch, run
+`pytest`, and open a pull request. Keep to the project's constraints: no
+database, no bundler, and about 800 lines excluding tests. SparkDash is
+[MIT licensed](LICENSE), so anything you submit is released under the same
+terms.
